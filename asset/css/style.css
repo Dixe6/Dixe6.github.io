@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: #e6d3f5 3px solid;
+    height: 10%;
+    background: linear-gradient(to right, #f651d3, #2216d1);
+}
+
+.title {
+    margin: 0.5%;
+    color: #2216d1;
+}
+
+.login {
+    display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 30%;
+  justify-content: end;
+  align-content: space-evenly;
+  margin-right: 5px;
+  
+}
+
+
+
+label {
+    align-self: flex-start;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #f651d3;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.submit {
+    height: 50%;
+    width:25%;
+}
+
+.logout{
+    height: 50%;
+    width:25%;
+}
+
+.page {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url("/graphql/asset/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fenGEN {
+    display: flex;
+    flex-wrap: wrap;
+    height: 78%;
+    width: 95%;
+    background: linear-gradient(to right, #f651d3, #2216d1);
+    overscroll-behavior-y: scroll;
+    overflow-x: hidden;
+}
+
+.divUser{
+    border: solid #d4ccfe 3px;
+    border-top: none;
+    width: 66%;
+    height: 25%;
+    padding: 8px;
+    overflow-y: scroll;
+}
+
+.mess-login{
+    position: absolute;
+    margin: 10px;
+    top: 50%;
+    left: 40%;
+}
+
+p{
+    font-size: large;
+    text-align: left;
+    font-weight: bold;
+}
+
+.divSkill {
+    height: fit-content;
+    width: 33%;
+}
+
+.Skills {
+    color: #d5d507;
+    margin: 5px;
+    text-decoration: underline 3px;
+}
+
+.xpDiv {
+    margin:5px
+}
+
+.divGO {
+    width: 33%;
+    height: fit-content;
+    border: solid #d4ccfe 2px;
+}
+
+.piscine-go {
+    color: #2d21b3;
+    margin: 5px;
+    text-decoration: underline 3px;
+}
+
+.xpGO {
+    margin:5px
+}
+
+.divJS {
+    width: 597px;
+    height: fit-content;
+    border: solid #d4ccfe 2px;
+    margin-left: auto;
+}
+
+.piscine-js {
+    color: #db0fb0;
+    margin: 5px;  
+    text-decoration: underline 3px;
+}
+
+.xpJS {
+    margin:5px
+}
