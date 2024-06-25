@@ -65,7 +65,7 @@ label {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    background-image: url("asset/img/background.jpg");
+    background-image: url("./asset/img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
